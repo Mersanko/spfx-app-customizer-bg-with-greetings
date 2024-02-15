@@ -1,0 +1,22 @@
+{
+  "@microsoft/generator-sharepoint": {
+    "plusBeta": false,
+    "isCreatingSolution": true,
+    "nodeVersion": "16.17.0",
+    "sdksVersions": {
+      "@microsoft/microsoft-graph-client": "3.0.2",
+      "@microsoft/teams-js": "2.12.0"
+    },
+    "version": "1.18.2",
+    "libraryName": "gcg-ip-portal-app-extension",
+    "libraryId": "2d0e8696-c85f-4366-9ac9-2e2db67b800e",
+    "environment": "spo",
+    "packageManager": "npm",
+    "solutionName": "gcg-ip-portal-app-extension",
+    "solutionShortDescription": "gcg-ip-portal-app-extension description",
+    "skipFeatureDeployment": false,
+    "isDomainIsolated": false,
+    "componentType": "extension",
+    "extensionType": "ApplicationCustomizer"
+  }
+}

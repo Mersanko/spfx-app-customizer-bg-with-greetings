@@ -1,0 +1,7 @@
+div[data-automation-id="CanvasZone"]{
+    background-image: url('https://jgsoffice.sharepoint.com/:i:/r/sites/GCGIPPortal/Shared%20Documents/Official%20logo%20%26%20landing%20page/GCGIPbackground.png?csf=1&web=1&e=p13Yuo');
+    background-size: contain; /* Auto-fit behavior: cover the entire div */
+    background-position: center center; /* Position the image in the center */
+    /* You can add more styling here */
+}
+

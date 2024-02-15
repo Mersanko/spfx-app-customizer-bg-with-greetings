@@ -1,0 +1,29 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/spfx-serve.schema.json",
+  "port": 4321,
+  "https": true,
+  "serveConfigurations": {
+    "default": {
+      "pageUrl": "https://jgsoffice.sharepoint.com/sites/GCGIPPortal/SitePages/CollabHome.aspx",
+      "customActions": {
+        "4f86126c-a25e-496e-a784-46708848d9ce": {
+          "location": "ClientSideExtension.ApplicationCustomizer",
+          "properties": {
+            "testMessage": "Test message"
+          }
+        }
+      }
+    },
+    "gcgIpPortalAppExtension": {
+      "pageUrl": "https://jgsoffice.sharepoint.com/sites/GCGIPPortal/SitePages/CollabHome.aspx",
+      "customActions": {
+        "4f86126c-a25e-496e-a784-46708848d9ce": {
+          "location": "ClientSideExtension.ApplicationCustomizer",
+          "properties": {
+            "testMessage": "Test message"
+          }
+        }
+      }
+    }
+  }
+}

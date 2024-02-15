@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+    <CustomAction
+        Title="GcgIpPortalAppExtension"
+        Location="ClientSideExtension.ApplicationCustomizer"
+        ClientSideComponentId="4f86126c-a25e-496e-a784-46708848d9ce"
+        ClientSideComponentProperties="{&quot;testMessage&quot;:&quot;Test message&quot;}">
+    </CustomAction>
+</Elements>

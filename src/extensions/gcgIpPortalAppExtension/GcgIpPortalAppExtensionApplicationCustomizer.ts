@@ -63,11 +63,12 @@ export default class GcgIpPortalAppExtensionApplicationCustomizer
 
 
     // Get the div element with data-automation-id="CanvasZone"
-    const canvasZone = document.querySelector('div[class="m_c_50a7110f l_c_50a7110f"]');
+    const canvasZoneChild = document.querySelector('div[class*="_c_50a7110f"]')
+    const canvasZone = canvasZoneChild ? canvasZoneChild.parentElement : null;
     // Check if the element exists before applying styles
     if (canvasZone instanceof HTMLElement) {
       // Apply CSS styles to the div element
-      canvasZone.style.backgroundImage = "url('https://jgsoffice.sharepoint.com/:i:/r/sites/GCGIPPortal/Shared%20Documents/Official%20logo%20%26%20landing%20page/GCGIPPortalbackground6.png?csf=1&web=1&e=97a7oM')";
+      canvasZone.style.backgroundImage = "url('https://jgsoffice.sharepoint.com/:i:/r/sites/GCGIPPortal/Shared%20Documents/Official%20logo%20%26%20landing%20page/GCGIPPortalbackground6.png?csf=1&web=1&e=fA4I4y')";
       canvasZone.style.backgroundSize = "contain";
       canvasZone.style.backgroundPosition = "center center";
 
